@@ -11,7 +11,7 @@ const Logos = () => {
         </defs>
       </svg>
       <div className="relative">
-        <div className="absolute inset-0 bg-black/20 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl" />
+        <div className="absolute inset-0 bg-cyan-400 shadow-md backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl" />
         <div className="relative flex items-end gap-x-5 p-2">
           <div className="relative">
             <div
