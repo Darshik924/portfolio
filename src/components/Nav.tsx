@@ -1,9 +1,6 @@
-import React from "react";
 import { FaUser } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { SiDevbox } from "react-icons/si";
-import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
 import Logos from "./Logos.tsx";
 
 const Nav = () => {
