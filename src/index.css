@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+/* LIFTING ANIMATION */
+
+.card-lift {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card-lift:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* JELLY ANIMATION */
+
+@keyframes jelly {
+  0% {
+    transform: scale(1, 1);
+  }
+  30% {
+    transform: scale(1.25, 0.75);
+  }
+  40% {
+    transform: scale(0.75, 1.25);
+  }
+  50% {
+    transform: scale(1.15, 0.85);
+  }
+  65% {
+    transform: scale(0.95, 1.05);
+  }
+  75% {
+    transform: scale(1.05, 0.95);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.jelly-button:hover {
+  animation: jelly 0.6s both;
+  background-color: #ff4757; /* Change color on hover */
+  color: white;
+}
+
+/* GLOWING ANIMATIONS */
+
+.glow-nav {
+  position: relative;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.glow-nav:hover {
+  color: #fff;
+  text-shadow:
+    0 0 10px #fff,
+    0 0 20px #4facfe;
+}
+
+.glow-nav::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4facfe;
+  filter: blur(15px);
+  opacity: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.glow-nav:hover::after {
+  opacity: 0.5;
+}
