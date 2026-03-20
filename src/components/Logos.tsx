@@ -1,5 +1,3 @@
-import React from "react";
-
 const Logos = () => {
   return (
     <div>
@@ -11,12 +9,12 @@ const Logos = () => {
         </defs>
       </svg>
       <div className="relative">
-        <div className="absolute inset-0 bg-blue-200 shadow-md backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl" />
+        <div className="absolute inset-0 bg-blue-200 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl" />
         <div className="relative flex items-end gap-x-5 p-2">
           <div className="relative">
             <div
               style={{ clipPath: "url(#squircleClip)" }}
-              className="w-14 h-14 bg-gradient-to-br from-gray-700 to-gray-900 rounded-xl flex items-center justify-center shadow-lg border border-gray-600/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
+              className="w-14 h-14 bg-linear-to-br from-gray-700 to-gray-900 rounded-xl flex items-center justify-center shadow-lg border border-gray-600/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -31,7 +29,7 @@ const Logos = () => {
           <div className="relative">
             <div
               style={{ clipPath: "url(#squircleClip)" }}
-              className="w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center shadow-lg border border-blue-500/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
+              className="w-14 h-14 bg-linear-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center shadow-lg border border-blue-500/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -46,7 +44,7 @@ const Logos = () => {
           <div className="relative">
             <div
               style={{ clipPath: "url(#squircleClip)" }}
-              className="w-14 h-14 bg-gradient-to-br from-indigo-600 to-indigo-800 rounded-xl flex items-center justify-center shadow-lg border border-indigo-500/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
+              className="w-14 h-14 bg-linear-to-br from-indigo-600 to-indigo-800 rounded-xl flex items-center justify-center shadow-lg border border-indigo-500/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -61,7 +59,7 @@ const Logos = () => {
           <div className="relative">
             <div
               style={{ clipPath: "url(#squircleClip)" }}
-              className="w-14 h-14 bg-gradient-to-br from-red-400 to-red-700 rounded-xl flex items-center justify-center shadow-lg border border-red-400/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
+              className="w-14 h-14 bg-linear-to-br from-red-400 to-red-700 rounded-xl flex items-center justify-center shadow-lg border border-red-400/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
             >
               <svg
                 viewBox="0 0 24 24"
