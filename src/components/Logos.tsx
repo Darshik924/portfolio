@@ -11,7 +11,6 @@ const Logos = () => {
       <div className="relative">
         <div className="absolute inset-0 bg-blue-200 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl" />
         <div className="relative flex items-end gap-x-5 p-2">
-          
           <a
             href="https://github.com/Darshik924"
             target="_blank"
@@ -78,16 +77,16 @@ const Logos = () => {
             </div>
           </a>
 
-          <a href="mailto:yourmail@gmail.com">
+          <a href="mailto:darshikladhe182@gmail.com">
             <div className="relative">
               <div
                 style={{ clipPath: "url(#squircleClip)" }}
-                className="w-14 h-14 bg-linear-to-br from-red-400 to-red-700 rounded-xl flex items-center justify-center shadow-lg border border-red-400/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
+                className="w-14 h-14 bg-linear-to-br from-white to-teal-100 rounded-xl flex items-center justify-center shadow-lg border border-red-400/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
               >
                 <svg
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="h-8 w-8 text-white"
+                  className="h-8 w-8 text-red-600"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
