@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = () => {
   return (
     <main className="pt-20 min-h-screen">
