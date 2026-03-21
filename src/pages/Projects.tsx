@@ -1,5 +1,3 @@
-import React from "react";
-
 const Projects = () => {
   const projects = [
     {
@@ -18,7 +16,7 @@ const Projects = () => {
     },
     {
       title: "URL Shortener (Group Project)",
-      desc: "A full-stack URL shortener with authentication and analytics. Built in a team of two and explicitly worked on the frontend.",
+      desc: "A full-stack URL shortener with authentication and analytics. Built in a team of five and explicitly worked on the frontend.",
       tech: ["Node.js", "Express", "MongoDB"],
       link: "#",
       github: "https://github.com/Darshik924/url-shortner-service.git",
