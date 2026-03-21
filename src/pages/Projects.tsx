@@ -1,36 +1,6 @@
-const Projects = () => {
-  const projects = [
-    {
-      title: "Pokedex Application",
-      desc: "A responsive app to explore Pokémon with search and detailed views using API integration.",
-      tech: ["React", "TypeScript", "Poke-API"],
-      link: "https://pokedex-darshik924s-projects.vercel.app/",
-      github: "https://github.com/Darshik924/Pokedex.git",
-    },
-    {
-      title: "Student Dashboard",
-      flag: {
-        text: "(In Progress)",
-        color: "#ed0000",
-      },
-      desc: "A productivity dashboard for managing tasks and tracking progress with a clean UI and gamified themes elements.",
-      tech: ["React", "Node.js", "MongoDB", "Express"],
-      link: "#",
-      github: "https://github.com/Darshik924/student-dashboard.git",
-    },
-    {
-      title: "URL Shortener",
-      flag: {
-        text: "(Group Project)",
-        color: "#00cb00",
-      },
-      desc: "A full-stack URL shortener with authentication and analytics. Built in a team of five and explicitly worked on the frontend.",
-      tech: ["Node.js", "Express", "MongoDB"],
-      link: "#",
-      github: "https://github.com/naresh-coder123/url-shortner.git",
-    },
-  ];
+import { projects } from "../projects/Projects";
 
+const Projects = () => {
   return (
     <main className="relative py-20 min-h-screen bg-linear-to-br from-teal-100 via-blue-100 to-indigo-100 flex items-center justify-center px-6">
       {/* Grid Overlay */}
