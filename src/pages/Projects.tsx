@@ -3,19 +3,27 @@ const Projects = () => {
     {
       title: "Pokedex Application",
       desc: "A responsive app to explore Pokémon with search and detailed views using API integration.",
-      tech: ["React", "TypeScript", "API"],
+      tech: ["React", "TypeScript", "Poke-API"],
       link: "https://pokedex-darshik924s-projects.vercel.app/",
       github: "https://github.com/Darshik924/Pokedex.git",
     },
     {
-      title: "Student Dashboard (In Progress)",
+      title: "Student Dashboard",
+      flag: {
+        text: "(In Progress)",
+        color: "#ed0000",
+      },
       desc: "A productivity dashboard for managing tasks and tracking progress with a clean UI and gamified themes elements.",
       tech: ["React", "Node.js", "MongoDB", "Express"],
       link: "#",
       github: "https://github.com/Darshik924/student-dashboard.git",
     },
     {
-      title: "URL Shortener (Group Project)",
+      title: "URL Shortener",
+      flag: {
+        text: "(Group Project)",
+        color: "#00cb00",
+      },
       desc: "A full-stack URL shortener with authentication and analytics. Built in a team of five and explicitly worked on the frontend.",
       tech: ["Node.js", "Express", "MongoDB"],
       link: "#",
@@ -24,7 +32,7 @@ const Projects = () => {
   ];
 
   return (
-    <main className="relative pt-20 min-h-screen bg-linear-to-br from-teal-100 via-blue-100 to-indigo-100 flex items-center justify-center px-6">
+    <main className="relative py-20 min-h-screen bg-linear-to-br from-teal-100 via-blue-100 to-indigo-100 flex items-center justify-center px-6">
       {/* Grid Overlay */}
       <div
         className="absolute inset-0 z-0 opacity-20"
@@ -35,7 +43,9 @@ const Projects = () => {
       ></div>
 
       <div className="relative z-10 max-w-5xl w-full text-center">
-        <h1 className="text-7xl font-extrabold text-slate-800">Projects 🚀</h1>
+        <h1 className="text-7xl ml-25 font-extrabold text-slate-800">
+          Projects 🚀
+        </h1>
 
         <p className="mt-4 text-slate-600 text-2xl">
           Here are some of the things I’ve been working on
@@ -45,11 +55,17 @@ const Projects = () => {
           {projects.map((proj, i) => (
             <div
               key={i}
-              className="p-6 rounded-2xl bg-white/70 backdrop-blur-md border border-slate-200 shadow-md 
-              transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+              className="p-6 rounded-2xl bg-white/70 backdrop-blur-md border border-slate-200 shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
             >
               <h2 className="text-2xl font-bold text-indigo-800 font-sans">
                 {proj.title}
+                {proj.flag?.color && (
+                  <div
+                    style={{ color: `${proj.flag.color}`, fontSize: "1.20rem" }}
+                  >
+                    {proj.flag.text}
+                  </div>
+                )}
               </h2>
 
               <p className="mt-3 text-sm text-slate-600">{proj.desc}</p>
@@ -77,7 +93,7 @@ const Projects = () => {
                 <a
                   href={proj.github}
                   target="_blank"
-                  className="text-slate-700 font-semibold hover:underline p-1 rounded-md hover:text-white hover:bg-amber-500"
+                  className="text-slate-700 font-semibold hover:underline p-1 rounded-md hover:text-white hover:bg-slate-600"
                 >
                   Code
                 </a>
