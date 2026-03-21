@@ -10,7 +10,7 @@ This is my personal portfolio website showcasing my projects, and ways to connec
 This portfolio is built to:
 
 - Highlight my development journey
-- Showcase my projects and skills
+- Provides list of my projects
 - Provide an easy way to connect and collaborate
 
 ---
