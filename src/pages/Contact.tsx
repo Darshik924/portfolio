@@ -1,4 +1,3 @@
-
 const Contact = () => {
   const contacts = [
     {
@@ -10,7 +9,7 @@ const Contact = () => {
     },
     {
       title: "Chat & Collaborate",
-      desc: "Let’s connect and build something together on Discord",
+      desc: "Let’s connect on Discord and build something together",
       link: "https://discordapp.com/users/darshikjod",
       label: "Message on Discord",
       color: "from-indigo-600 to-indigo-800",
@@ -64,7 +63,7 @@ const Contact = () => {
                 {item.title}
               </h2>
 
-              <p className="mt-2 text-sm text-slate-700">{item.desc}</p>
+              <p className="mt-2 text-sm text-slate-900">{item.desc}</p>
 
               <p className="mt-4 text-sm font-medium text-teal-700 inline-block px-4 py-1.5 rounded-md transition-all duration-50 group-hover:underline hover:text-white hover:bg-teal-950 hover:scale-105">
                 {item.label}

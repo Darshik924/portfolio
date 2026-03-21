@@ -12,14 +12,14 @@ const Projects = () => {
       desc: "A productivity dashboard for managing tasks and tracking progress with a clean UI and gamified themes elements.",
       tech: ["React", "Node.js", "MongoDB", "Express"],
       link: "#",
-      github: "#",
+      github: "https://github.com/Darshik924/student-dashboard.git",
     },
     {
       title: "URL Shortener (Group Project)",
       desc: "A full-stack URL shortener with authentication and analytics. Built in a team of five and explicitly worked on the frontend.",
       tech: ["Node.js", "Express", "MongoDB"],
       link: "#",
-      github: "https://github.com/Darshik924/url-shortner-service.git",
+      github: "https://github.com/naresh-coder123/url-shortner.git",
     },
   ];
 
