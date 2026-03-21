@@ -1,7 +1,7 @@
 # 🌐 Personal Portfolio
 
 Hi, I'm **Darshik Ladhe** 👋
-This is my personal portfolio website showcasing my projects, skills, and ways to connect with me.
+This is my personal portfolio website showcasing my projects, and ways to connect with me.
 
 ---
 
@@ -27,9 +27,8 @@ This portfolio is built to:
 
 - Clean and modern UI
 - Responsive design
-- Projects showcase section
+- Projects section
 - Contact section for collaboration
-- Smooth hover interactions and transitions
 
 ---
 
@@ -48,7 +47,7 @@ This portfolio is built to:
 
 - Full-stack application to shorten URLs
 - Includes backend logic and database integration
-- Built collaboratively in a team
+- Built collaboratively in a team of five
 
 ---
 
@@ -62,21 +61,14 @@ If you want to collaborate or just have a chat, feel free to reach out!
 
 ---
 
-## 🧠 What I’m Currently Learning
-
-- Backend systems and architecture
-- Improving problem-solving skills
-
----
-
 ## ⚙️ Setup & Run Locally
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/your-username/portfolio.git
 
 # Navigate to project folder
-cd your-portfolio
+cd portfolio
 
 # Install dependencies
 npm install
@@ -90,15 +82,6 @@ npm run dev
 ## 🌍 Live Demo
 
 👉 [Visit Portfolio](https://your-portfolio-link.com)
-
----
-
-## 📌 Future Improvements
-
-- Add more projects
-- Improve UI/UX animations
-- Add blog section
-- Enhance backend integrations
 
 ---
 
