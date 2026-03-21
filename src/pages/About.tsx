@@ -1,10 +1,11 @@
 import React from "react";
 
-const Banner = () => {
+const About = () => {
   return (
     <main className="pt-20 min-h-screen">
+      <h1>Hey, Darshik Ladhe Here</h1>
     </main>
   );
 };
 
-export default Banner;
+export default About;
