@@ -1,10 +1,16 @@
 import { type ReactNode } from "react";
 import styled from "styled-components";
 
-const CoolButton = ({ children }: { children: ReactNode }) => {
+const CoolButton = ({
+  children,
+  color,
+}: {
+  children: ReactNode;
+  color: string;
+}) => {
   const StyledWrapper = styled.div`
     button {
-      background-color: blue;
+      background-color: ${color};
       color: white;
       border-radius: 10em;
       font-size: 17px;

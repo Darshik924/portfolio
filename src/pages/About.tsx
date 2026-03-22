@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom";
 import CoolButton from "../components/CoolButton";
+import { useView } from "../components/useView";
+import { useEffect } from "react";
+import { VIEW } from "../db/Types";
 
 const About = () => {
+  const { setView } = useView();
+
+  useEffect(() => {
+    setView({ is: VIEW.about });
+  }, []);
+
   const skills = ["React", "TypeScript", "Express", "MongoDB", "Tailwind CSS"];
 
   return (
@@ -40,12 +49,12 @@ const About = () => {
         </div>
 
         <div className="mt-10 flex justify-center gap-4">
-          <CoolButton>
+          <CoolButton color="blue">
             <Link to="/projects">View Projects</Link>
           </CoolButton>
 
-          <CoolButton>
-            <a href="mailto:yourmail@gmail.com">Contact Me</a>
+          <CoolButton color="#4d4dff">
+            <Link to="/contact">Contact Me</Link>
           </CoolButton>
         </div>
       </div>

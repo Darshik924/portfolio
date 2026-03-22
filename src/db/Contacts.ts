@@ -1,4 +1,4 @@
-import type { contactsType } from "./projectsTypes";
+import type { contactsType } from "./Types";
 
 const contacts: contactsType = [
   {

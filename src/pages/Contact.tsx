@@ -1,6 +1,15 @@
+import { useEffect } from "react";
+import { useView } from "../components/useView";
 import { contacts } from "../db/Contacts";
+import { VIEW } from "../db/Types";
 
 const Contact = () => {
+  const { setView } = useView();
+
+  useEffect(() => {
+    setView({ is: VIEW.contact });
+  }, []);
+
   return (
     <main className="relative pt-20 min-h-screen bg-linear-to-br from-teal-100 via-blue-100 to-indigo-100 flex items-center justify-center px-6">
       {/* Grid Overlay */}

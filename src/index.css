@@ -46,6 +46,10 @@
   color: white;
 }
 
+.jelly-animate {
+  animation: jelly 0.6s both;
+}
+
 /* GLOWING ANIMATIONS */
 
 .glow-nav {

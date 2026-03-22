@@ -1,6 +1,15 @@
+import { useEffect } from "react";
+import { useView } from "../components/useView";
 import { projects } from "../db/Projects";
+import { VIEW } from "../db/Types";
 
 const Projects = () => {
+  const { setView } = useView();
+
+  useEffect(() => {
+    setView({ is: VIEW.projects });
+  }, []);
+
   return (
     <main className="relative py-20 min-h-screen bg-linear-to-br from-teal-100 via-blue-100 to-indigo-100 flex items-center justify-center px-6">
       {/* Grid Overlay */}
