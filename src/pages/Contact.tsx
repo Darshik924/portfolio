@@ -1,4 +1,4 @@
-import { contacts } from "../projects/Contacts";
+import { contacts } from "../db/Contacts";
 
 const Contact = () => {
   return (
