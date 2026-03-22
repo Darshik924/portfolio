@@ -11,7 +11,7 @@ const Nav = () => {
   const navIconStyles = `font-bold text-white h-7 w-7 mt-1`;
 
   const getNavItemClass = (viewIs: string) =>
-    `text-3xl font-bold cursor-pointer transition duration-150 text-white font-sans flex gap-2 p-3 rounded-2xl ${view.is === viewIs ? "jelly-animate" : ""}`;
+    `text-3xl font-bold cursor-pointer hover:text-green-100 transition duration-150 text-white font-sans flex gap-2 p-3 rounded-2xl ${view.is === viewIs ? "jelly-animate" : ""}`;
 
   return (
     <nav className="h-20 w-full bg-blue-500 fixed top-0 left-0 z-50">

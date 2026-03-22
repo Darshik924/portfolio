@@ -9,17 +9,6 @@ const projects: projectsType = [
     github: "https://github.com/Darshik924/Pokedex.git",
   },
   {
-    title: "Student Dashboard",
-    flag: {
-      text: "(In Progress)",
-      color: "#ed0000",
-    },
-    desc: "A productivity dashboard for managing tasks and tracking progress with a clean UI and gamified themes elements.",
-    tech: ["React", "Node.js", "MongoDB", "Express", "TypeScirpt"],
-    link: "#",
-    github: "https://github.com/Darshik924/student-dashboard.git",
-  },
-  {
     title: "URL Shortener",
     flag: {
       text: "(Group Project)",
@@ -29,6 +18,17 @@ const projects: projectsType = [
     tech: ["React", "Express", "MongoDB"],
     link: "#",
     github: "https://github.com/naresh-coder123/url-shortner.git",
+  },
+  {
+    title: "Student Dashboard",
+    flag: {
+      text: "(In Progress)",
+      color: "#ed0000",
+    },
+    desc: "A productivity dashboard for managing tasks and tracking progress with a clean UI and gamified themes elements.",
+    tech: ["React", "Node.js", "MongoDB", "Express", "TypeScirpt"],
+    link: "#",
+    github: "https://github.com/Darshik924/student-dashboard.git",
   },
 ];
 
