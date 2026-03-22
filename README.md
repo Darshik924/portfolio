@@ -65,7 +65,7 @@ If you want to collaborate or just have a chat, feel free to reach out!
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/Darshik924/portfolio.git
 
 # Navigate to project folder
 cd portfolio
@@ -81,7 +81,7 @@ npm run dev
 
 ## 🌍 Live Demo
 
-👉 [Visit Portfolio](https://your-portfolio-link.com)
+👉 [Visit Portfolio](https://kamistack.info)
 
 ---
 
