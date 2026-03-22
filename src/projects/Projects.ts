@@ -4,7 +4,7 @@ const projects: projectsType = [
   {
     title: "Pokedex Application",
     desc: "A responsive app to explore Pokémon with search and detailed views using API integration.",
-    tech: ["React", "TypeScript", "Poke-API"],
+    tech: ["React", "Javascript", "Poke-API"],
     link: "https://pokedex-darshik924s-projects.vercel.app/",
     github: "https://github.com/Darshik924/Pokedex.git",
   },
@@ -26,7 +26,7 @@ const projects: projectsType = [
       color: "#00cb00",
     },
     desc: "A full-stack URL shortener with authentication and analytics. Built in a team of five and explicitly worked on the frontend.",
-    tech: ["Node.js", "Express", "MongoDB"],
+    tech: ["React", "Express", "MongoDB", "Javascript"],
     link: "#",
     github: "https://github.com/naresh-coder123/url-shortner.git",
   },
