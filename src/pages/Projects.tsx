@@ -61,13 +61,15 @@ const Projects = () => {
               </div>
 
               <div className="mt-5 flex justify-center gap-4">
-                <a
-                  href={proj.link}
-                  target="_blank"
-                  className="text-teal-700 font-semibold hover:underline p-1 rounded-md hover:text-white hover:bg-teal-950"
-                >
-                  Live
-                </a>
+                {proj.link != "#" && (
+                  <a
+                    href={proj.link}
+                    target="_blank"
+                    className="text-teal-700 font-semibold hover:underline p-1 rounded-md hover:text-white hover:bg-teal-950"
+                  >
+                    Live
+                  </a>
+                )}
 
                 <a
                   href={proj.github}

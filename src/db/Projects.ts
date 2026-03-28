@@ -14,9 +14,9 @@ const projects: projectsType = [
       text: "(Group Project)",
       color: "#00cb00",
     },
-    desc: "A full-stack URL shortener with authentication and analytics. Built in a team of five and explicitly worked on the frontend.",
+    desc: "A full-stack URL shortener with authentication and analytics. Built in a team of two and explicitly worked on the frontend.",
     tech: ["React", "Express", "MongoDB"],
-    link: "#",
+    link: "https://url-shortner-1.vercel.app/",
     github: "https://github.com/naresh-coder123/url-shortner.git",
   },
   {
@@ -29,6 +29,17 @@ const projects: projectsType = [
     tech: ["React", "Node.js", "MongoDB", "Express", "TypeScirpt"],
     link: "#",
     github: "https://github.com/Darshik924/student-dashboard.git",
+  },
+  {
+    title: "ShopEase: E-commerce App",
+    flag: {
+      text: "(In Progress)",
+      color: "#ed0000",
+    },
+    desc: "A complete stack E-commerce website that has admin roles and customer roles for buyers and sellers",
+    tech: ["React", "Node.js", "MongoDB", "Express", "TypeScirpt"],
+    link: "#",
+    github: "#",
   },
 ];
 
