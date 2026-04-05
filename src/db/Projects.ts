@@ -25,7 +25,7 @@ const projects: projectsType = [
       text: "(Group Project)",
       color: "#00cb00",
     },
-    desc: "A real-time image gallery where users can upload images and upvote their favorites — with live vote counts that update instantly across all connected devices, no refresh needed.",
+    desc: "A real-time image gallery where users can upload images and upvote their favorites — with live vote counts that update instantly across all connected devices, no refresh needed. Worked on the complete backend,frontend architecture and client sevrer communication",
     tech: ["React", "Node.js", "MongoDB", "Express", "Socket.IO"],
     link: "https://live-upvote-gallery.vercel.app/",
     github: "https://github.com/Darshik924/live-upvote-gallery.git",
