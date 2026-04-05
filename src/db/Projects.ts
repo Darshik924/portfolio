@@ -16,19 +16,19 @@ const projects: projectsType = [
     },
     desc: "A full-stack URL shortener with authentication and analytics. Built in a team of two and explicitly worked on the frontend.",
     tech: ["React", "Express", "MongoDB"],
-    link: "https://url-shortner-1.vercel.app/",
+    link: "#",
     github: "https://github.com/naresh-coder123/url-shortner.git",
   },
   {
-    title: "Student Dashboard",
+    title: "Live Upvote Gallery",
     flag: {
-      text: "(In Progress)",
-      color: "#ed0000",
+      text: "(Group Project)",
+      color: "#00cb00",
     },
-    desc: "A productivity dashboard for managing tasks and tracking progress with a clean UI and gamified themes elements.",
-    tech: ["React", "Node.js", "MongoDB", "Express", "TypeScirpt"],
-    link: "#",
-    github: "https://github.com/Darshik924/student-dashboard.git",
+    desc: "A real-time image gallery where users can upload images and upvote their favorites — with live vote counts that update instantly across all connected devices, no refresh needed.",
+    tech: ["React", "Node.js", "MongoDB", "Express", "Socket.IO"],
+    link: "https://live-upvote-gallery.vercel.app/",
+    github: "https://github.com/Darshik924/live-upvote-gallery.git",
   },
   {
     title: "ShopEase: E-commerce App",
@@ -39,7 +39,7 @@ const projects: projectsType = [
     desc: "A complete stack E-commerce website that has admin roles and customer roles for buyers and sellers",
     tech: ["React", "Node.js", "MongoDB", "Express", "TypeScirpt"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Darshik924/shopease-e-commerce.git",
   },
 ];
 
