@@ -19,35 +19,6 @@ This portfolio is built to:
 
 - **Frontend:** React, TypeScript
 - **Styling:** Tailwind CSS
-- **Routing:** React Router
-
----
-
-## ✨ Features
-
-- Clean and modern UI
-- Responsive design
-- Projects section
-- Contact section for collaboration
-
----
-
-## 📂 Projects Included
-
-### 🔹 Pokedex Application
-
-- Explore Pokémon with search and detailed views
-- Built using API integration
-
-### 🔹 Student Dashboard _(In Progress)_
-
-- Productivity dashboard to manage tasks and track progress
-
-### 🔹 URL Shortener _(Group Project)_
-
-- Full-stack application to shorten URLs
-- Includes backend logic and database integration
-- Built collaboratively in a team of five
 
 ---
 
